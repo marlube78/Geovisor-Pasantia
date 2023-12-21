@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Geo-CI3ME Manual</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="titulo">
+            <a href="./index.html"><img src="img/LOGO.png" height="60" width="300" alt="LogoGeoservidor"></a>
+        </div>
+        <nav class="navegacion">
+            <a href="nosotros.html">Nosotros</a>
+            <a href="Manual.html">Manual</a>
+            <a href="Ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="margenes">
+            <h2 class="centrar-texto letratit">Manual</h2>
+            <div id="justificar">
+                <p>
+                    En esta sección encontrara el funcionamiento basico del geovisor y las caracteristicas basicas para
+                    hacer uso del mismo.
+                    El visor muestra capas de información social y agricola del territorio nacional. Puede escoger entre
+                    diferentes basemapas
+                    y la superposicion de capas tematicas de acuerdo a lo que desee visualizar.
+                </p>
+            </div>
+            <h2 class="centrar-texto"> Seleccion de mapa base y superposicion de capas </h2>
+            <p>
+                El icono de capas en el costado derecho despliega los mapa-base disponibles, asi como las capas
+                tematicas
+                disponibles con su respectivo checkbox, que permite activar y desactivar cada una de ellas.
+            </p>
+            <div class="grid3">
+                <img src="img/layrBtn.PNG" height="50" width="50" class="centrar-img">
+                <img src="img/Capa.png" height="200" width="80" class="centrar-img">
+            </div>
+            <h2 class="centrar-texto"> Botones de edición </h2>
+            <p>
+                En el apartado izquierdo del geovisor encontrara una serie de botones como los que se ilustran a
+                continuación.
+                Este conjunto de botones corresponde a la edicion y creacion de caracteristicas dentro del visor, como
+                lo
+                son puntos o poligonos,
+                ademas de otro conjunto de herramientas que permite la edicion de todas las caracteristcas agregadas por
+                el
+                usuario.
+            </p>
+            <img src="img/Bedit.PNG" height="250" width="30" class="centrar-img">
+            <h2 class="centrar-texto"> Imprimir y exportar mapa </h2>
+            <p>
+                Al hacer click sobre este botón sera posible imprimir y exportar el contenido del visor a diferentes
+                formatos
+                segun las necesidades del usuario.
+            </p>
+            <img src="img/pBtn.PNG" height="20" width="110" class="centrar-img">
+            <h2 class="centrar-texto"> Edicion de estilo </h2>
+            <p>
+                Al hacer click sobre este botón sera posible cambiar el estilo de la geometria que sea seleccionada
+            </p>
+            <img src="img/controlEdi.PNG" height="40" width="40" class="centrar-img">
+            <p>
+                Según la geometria seleccionada se despliega un menu, para poligono, linea, punto.
+            </p>
+            <div class="grid2">
+                <div>
+                    <h2 class="centrar-texto"> Selector de estilo de Poligonos </h2>
+                    <img src="img/Cajaestilopoligono1.PNG" height="300" width="140">
+                    <img src="img/Cajaestilopoligono2.PNG" height="300" width="140">
+                </div>
+                <div>
+                    <h2 class="centrar-texto"> Selector de estilo de lineas </h2>
+                    <img src="img/Cajaestilolinea.PNG" height="300" width="140" class="centrar-img">
+                </div>
+                <div>
+                    <h2 class="centrar-texto"> Selector de estilo de puntos </h2>
+                    <img src="img/Cajaestilopunto1.PNG" height="300" width="140">
+                    <img src="img/Cajaestilopunto2.PNG" height="200" width="100">
+                </div>
+            </div>
+            <h2 class="centrar-texto"> Coordenadas del puntero </h2>
+            <p>
+                Esta funcionalidad permite ubicar las coordenadas segun el movimiento del puntero sobre el mapa, al momento de hacer click sobre una de los indicadores de coordenadas permite ubicar las coordenadas que el usuario desee mostrandolas con un punto, si se vuelven a cambiar las coordenadas el punto anterior desaparecera para ser remplazado por las nuevas coordenadas, se recomienda mediante la herramienta de dibujo hacer un punto en la coordenada deseada antes de introducir una nueva.
+            </p>
+            <img src="img/punterocoordenadas.png" height="80" width="400" class="centrar-img">
+            <h1 class="centrar-texto"> Vista Multiple </h1>
+            <p>
+                Esta vista permite la comparación entre diferentes capas pues cada visor esta conectado con los otros, se recomienda escoger diferentes capas para cada visor, si se escogen los mismos layers, se mostrará solo en uno o uno de los visores dejará de funcionar y deberá recargar el servicio. 
+                Entre las interacciones que tiene esta vista multiple es cambiar estilos de geometria y ubicar coordenadas con el puntero, este ultimo unicamente en el primer visor. 
+            </p>
+            <img src="img/visorMultiple.jpeg" height="200" width="400" class="centrar-img">
+        </div>
+    </div>
+</body>
+
+</html>

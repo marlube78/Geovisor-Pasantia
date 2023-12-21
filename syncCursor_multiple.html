@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Geo-CI3ME Vista Multiple</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet-src.js" crossorigin=""></script>
+
+    <style type="text/css">
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        #map,
+        #container {
+            width: 49.5%;
+            height: 100%;
+        }
+
+        #map {
+            float: left;
+        }
+
+        #container {
+            float: right;
+        }
+
+        #container .map {
+            width: 100%;
+            height: 50%;
+        }
+    </style>
+    <!-- Mapa BASE -->
+    <script src="http://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+    <script src="./js/leaflet-providers.js"></script>
+    <!--Edicion de estilo-->
+    <!-- L.StyleEditor source files -->
+    <link rel="stylesheet" href="./css/Leaflet.StyleEditor.min.css" />
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://www.jqueryscript.net/demo/jQuery-Plugin-To-Print-Any-Part-Of-Your-Page-Print/jQuery.print.js">
+    </script>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+    <!--Mouse-->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.css" />
+    <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.js"></script>
+    <link rel="stylesheet" href="./css/Leaflet.Coordinates-0.1.5.css" />
+    <!-- BOTONES DRAW -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/demo.css" />
+    <link rel="stylesheet" href="./css/leaflet.pm.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="titulo">
+            <a href="./index.html"><img src="img/LOGO.png" height="50" width="250" alt="LogoGeoservidor"></a>
+        </div>
+        <nav class="navegacion">
+            <a href="nosotros.html">Nosotros</a>
+            <a href="Manual.html">Manual</a>
+            <a href="Ayuda.html">Ayuda</a>
+            <li><a href="syncCursor_multiple.html">Visor Multiple</a></li>
+        </nav>
+    </header>
+    <div id="map"></div>
+    <div id="container">
+        <div id="mapA" class="map"></div>
+        <div id="mapB" class="map"></div>
+    </div>
+    <div>
+        <script src="http://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+        <script src="./js/leaflet-providers.js"></script>
+        <script src="./js/cilicitos.js"></script>
+        <script src="./js/limcol.js"></script>
+        <script src="./js/DeptosCol.js"></script>
+        <script src="./js/alertasCol.js"></script>
+        <script src="./js/GAO.js"></script>
+        <script src="./js/ELN.js"></script>
+        <script src="./js/Vio_Pol.js"></script>
+        <script src="./js/Nivel_Ries.js"></script>
+        <script src="./js/Incendios.js"></script>
+        <script src="./js/Inundac.js"></script>
+        <script src="./js/Desliz.js"></script>
+        <script src="./js/CrecienteS.js"></script>
+        <script src="./js/RiesgoE_Medio.js"></script>
+        <script src="./js/RiesgoE_Alto.js"></script>
+        <script src="./js/RiesgoE_Extremo.js"></script>
+        <script src="./js/Rayos.js"></script>
+    </div>
+    <script src="./js/leaflet.pm.min.js"></script>
+    <script src="./js/Leaflet.Coordinates-0.1.5.min.js"></script>
+    <script src="./js/Leaflet.StyleEditor.min.js"></script>
+    <script src="./js/L.Map.Sync.js"></script>
+    <script src="./js/vistmultip.js"></script>
+</body>
+
+</html>

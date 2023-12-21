@@ -1,0 +1,109 @@
+/*Utilidades*/
+.centrar-texto{
+    text-align: center;
+}
+#centrar-todo{ 
+   display: flex;
+   justify-content: center;
+   text-align: justify;
+   align-items: center;
+   font-size: 20px; 
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 40px;
+    justify-items: center;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    margin-top: 40px;
+    justify-items: center;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 100%;
+    margin: auto;
+    justify-items: center;  
+}
+.espacio{
+    margin-top: 20px;
+}
+.flexfila{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.margenes{
+    margin-top: 0px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.centrar-img{
+    display: block;
+    margin: auto;
+}
+
+/*header*/
+.encabezado{
+    display: flex;
+    background-image: url(../img/fondoPrueba2.jpg);
+    justify-content: space-between; /*Separa el titulo de los links del tituo*/
+    color: white;
+    align-items: center;   /*Alinea el titulo con los nav centrandolos*/
+    background-position-x: center; /*Posicion imagen*/
+    background-position-y: center; /*Posicion imagen*/
+    background-size: cover; /*Posicion imagen*/
+}
+.navegacion{
+    display: flex;  /*Pone cajitas*/      
+}
+.navegacion a{
+    margin-right: 18px; /*margen derecho entre links*/
+    color: white;
+    text-decoration: none;
+}
+.titulo {
+    margin: 0;
+}
+
+/*Pagina Nosotros*/
+
+.letratit{
+    font-size: 60px;
+    margin: 0;
+}
+
+.imagen-catastral{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.justificar{
+    text-align: justify;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.main{
+    background-image: url(../img/globe.jpg);
+    margin: 0;
+    background-position-x: center; /*Posicion imagen*/
+    background-position-y: center; /*Posicion imagen*/
+    background-size: center; /*Posicion imagen*/
+    
+}
+#mapid {
+    height: 658px;
+    position: center !important;
+}
+
+.cascada{
+    background-image: url(../img/globe.jpg);
+    margin: 0;
+    background-position-x: center; /*Posicion imagen*/
+    background-position-y: center; /*Posicion imagen*/
+    background-size: center; /*Posicion imagen*/
+}
